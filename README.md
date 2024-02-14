@@ -76,3 +76,23 @@ O Forms é dividido nas seguintes partes:
 - Widgets: controlam a renderização dos campos no HTML. Por exemplo, um campo CharField pode ser renderizado como uma caixa de texto ou um campo de senha.
 - Validação: o Django realiza a validação automática dos dados enviados pelo usuário com base nas regras definidas nos campos. Se os dados não forem válidos, o formulário exibirá mensagens de erro.
 - Renderização de Templates: os formulários são renderizados em templates HTML usando a tag {% form %}. Você pode personalizar a aparência do formulário no template.
+
+**Aula 8: Models e ModelForm** 📕✏️<br>
+São partes essenciais do Django para trabalhar com bancos de dados e formulários.
+
+1. Models:
+  - Os models no Django são classes Python que definem a estrutura dos dados que serão armazenados no banco de dados.
+  - Cada model representa uma tabela no banco de dados e seus campos correspondem às colunas dessa tabela.
+  - Os models incluem informações como tipos de campo, relacionamentos (chaves estrangeiras, chaves primárias) e métodos para interagir com os dados.
+2. ModelForms:
+  - Os ModelForms são uma extensão dos Forms padrão do Django.
+  - Eles são criados automaticamente com base em um model existente.
+  - Um ModelForm mapeia os campos do model para campos de formulário, permitindo que você crie formulários facilmente para adicionar, editar ou exibir dados do banco de dados.
+  - Eles também incluem validação automática com base nas regras definidas nos models.
+
+  Instalar um extensão para conseguir visualizar o banco de dados no VSCode. SQLite Viewer
+
+  Sempre que houver uma atualização no banco de dados, deve rodar esses  comando de imigração.
+  - Gerar um arquivo que deve ser enviado para o banco: python manage.py makemigrations
+  - Envia para o banco: python manage.py migrate
+  - Ir na views e incluir a conexão com o banco.
