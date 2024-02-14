@@ -67,3 +67,12 @@ Tudo que for JS e CSS, ficam na pasta static. Nesse projeto usamos o framework b
 
 - pip install django-bootstrap-v5
 - registrar no settings.py
+
+**Aula 7: Forms** 📕✏️<br>
+Parte essencial para coletar informações dos usuários em aplicativos da web. Eles permitem que você defina campos de formulário, regras de validação e renderização de formulários em templates de maneira simples e eficiente.
+O Forms é dividido nas seguintes partes:
+- Classe: ela especifica os campos no formulário, seu layout, exibe widgets, rótulos, valores iniciais, valores válidos e mensagens de erro associadas a campos inválidos.
+- Campos (Fields): os campos definem os tipos de dados que você deseja coletar do usuário (por exemplo, texto, número, data, etc.). Existem vários tipos de campos, como CharField, IntegerField, DateField, etc.
+- Widgets: controlam a renderização dos campos no HTML. Por exemplo, um campo CharField pode ser renderizado como uma caixa de texto ou um campo de senha.
+- Validação: o Django realiza a validação automática dos dados enviados pelo usuário com base nas regras definidas nos campos. Se os dados não forem válidos, o formulário exibirá mensagens de erro.
+- Renderização de Templates: os formulários são renderizados em templates HTML usando a tag {% form %}. Você pode personalizar a aparência do formulário no template.
