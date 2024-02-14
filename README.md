@@ -31,14 +31,14 @@ Ele possui as seguintes partes:
 - Controlar acesso (Authorization);
 - Gerenciara aplicação (Admin).
 
-** Aula 1: Instalando o ambiente virtual e conhecendo nosso projeto **
+** Aula 1: Instalando o ambiente virtual e conhecendo nosso projeto ** ⚠️
 
 - instalar o ambiente virtual: pip install virtualenv
 - criar o ambiente virtual: python -m venv [nome do ambiente virtual]
 - entrar na pasta criada: cd .\[nome da pasta]\
 - ativar o ambiente virtual: .\Scripts\activate
 
-** Aula 2: Instalando o django e iniciando nosso primeiro aplicativo **
+** Aula 2: Instalando o django e iniciando nosso primeiro aplicativo ** ⚠️
 
 - instalar o Django: pip install django
 - criar o projeto: django-admin startproject [nome do projeto] .
@@ -49,7 +49,21 @@ Na pasta projeto fica as configurações gerais do sistema.
 Na pasta base implementa as funcionalidades específicas do aplicativo.(Cadastro, visualização, etc)
 
 Sempre que cria um novo aplicativo precisamos avisar o projeto que o app foi criado.
+- registrar no settings.py
 
-** Aula 3: Views **
+** Aula 3: Views ** 📕✏️
 Parte do código que trabalha com as visualizações.
 São responsáveis por processar as requisições dos clientes, executar a lógica de negócios e retornar respostas. Elas formam a camada onde definimos como nossa aplicação deve se comportar em resposta às ações dos usuários. 
+
+** Aula 4: URLs ** 📕✏️
+HttpResponse responsável pela comunicação pela internet.
+Para as Views acessarem as páginas, elas precisam de uma url.
+As URLs no Django são responsáveis por mapear os endereços da web para funções de visualização em sua aplicação. Elas definem como as requisições do navegador devem ser tratadas e quais respostas devem ser retornadas. 
+
+** Aula 5 e 6: Template parte 1 e 2 ** 📕✏️
+Os templates no Django são arquivos que definem a aparência e o layout das suas páginas da web. Eles permitem que você insira dados dinâmicos em páginas HTML, tornando-as interativas e personalizáveis.
+Os arquivos estáticos são recursos como imagens, folhas de estilo CSS e arquivos JavaScript que são servidos diretamente para o navegador, sem processamento dinâmico. 
+Tudo que for JS e CSS, ficam na pasta static. Nesse projeto usamos o framework bootstrap para estilizar nossa página.
+
+- pip install django-bootstrap-v5
+- registrar no settings.py

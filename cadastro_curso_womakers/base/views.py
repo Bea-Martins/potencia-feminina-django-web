@@ -1,8 +1,9 @@
 from django.shortcuts import render
+from django.http import HttpResponse
 
 # Cada view redireciona pra uma página, arquivo html, informação
 def inicio(request):
-  return HttpResponse('Olá mundo!')
+  return render(request, 'inicio.html')
 
 def cadastro(request):
-  pass
+  return render(request, 'cadastro.html')
