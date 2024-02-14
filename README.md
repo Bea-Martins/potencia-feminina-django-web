@@ -96,3 +96,15 @@ São partes essenciais do Django para trabalhar com bancos de dados e formulári
   - Gerar um arquivo que deve ser enviado para o banco: python manage.py makemigrations
   - Envia para o banco: python manage.py migrate
   - Ir na views e incluir a conexão com o banco.
+
+**Aula 9: Filtros, buscas e admin** 📕✏️<br>
+- Filtros: você pode filtrar registros de um modelo com base em condições específicas. Por exemplo, obter todos os eventos com o campo “ano” menor que 2018.
+- Buscas: o módulo Admin permite adicionar filtros a campos de modelo para facilitar a pesquisa e a navegação. Você pode definir os campos que deseja filtrar usando list_filter no arquivo admin.py.
+- Módulo Admin: é uma parte essencial do Django que permite gerenciar seus dados de forma visual. Principais recursos: lista de objetos, formulários de edição, filtros e pesquisa, ações em lote e personalização de visualização.
+
+Explorando o admin:
+- Instalar: python manage.py createsuperuser
+    1. Definir username
+    2. Definir email
+    3. Definir senha
+    4. Senha novamente
