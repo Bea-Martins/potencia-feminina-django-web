@@ -1,6 +1,6 @@
 # potencia-feminina-django-web
 
-## Nessa semana aprendemos sobre:
+## SEMANA 07: Django Web
 
 **O que é um Framework?** <br>
 Um framework é uma estrutura ou conjunto de ferramentas, bibliotecas e convenções que fornecem uma base para o desenvolvimento de software. Ele oferece uma maneira padronizada de criar e gerenciar aplicativos, simplificando tarefas comuns e fornecendo um esqueleto ou uma arquitetura inicial para o projeto.
@@ -108,3 +108,12 @@ Explorando o admin:
     2. Definir email
     3. Definir senha
     4. Senha novamente
+
+## SEMANA 8: Django ORM
+
+**Aula 1: Manipulando bases de dados parte 1** 📕✏️<br>
+- criar nova aplicação python manage.py startapp [nome do app]
+- adicionar nova aplicação no settings
+- criar a model
+- python manage.py makemigrations (sempre que faz alteração no banco de dados)
+- python manage.py migrate (sempre que roda o makemigrations)
