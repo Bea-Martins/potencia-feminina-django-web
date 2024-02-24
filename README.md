@@ -117,3 +117,8 @@ Explorando o admin:
 - criar a model
 - python manage.py makemigrations (sempre que faz alteração no banco de dados)
 - python manage.py migrate (sempre que roda o makemigrations)
+
+**Aula 2: Manipulando bases de dados parte 2** 📕✏️<br>
+- criar novo forms no banco cursos
+- atualizar view, forms
+- criar arquivo urls e atualizar urls geral
