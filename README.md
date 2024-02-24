@@ -122,3 +122,6 @@ Explorando o admin:
 - criar novo forms no banco cursos
 - atualizar view, forms
 - criar arquivo urls e atualizar urls geral
+
+**Aula 3: Validação de Dados** 📕✏️<br>
+- dentro de forms implementar um def para validação.
