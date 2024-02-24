@@ -154,3 +154,7 @@ O Django REST framework é uma ferramenta para construir APIs web em Python/Djan
 - instalar o Rest framework (pip install djangorestframework) or (python -m pip install djangorestframework)
 - criar um novo aplicativo (python .\manage.py startapp rest_api)
 - registrar no settings o novo app
+
+**Aula 2: HTTP e REST** 📕✏️<br>
+- implementar a api get e post dentro da view em rest_api
+- criar um arquivo urls.py na aplicação rest_api
