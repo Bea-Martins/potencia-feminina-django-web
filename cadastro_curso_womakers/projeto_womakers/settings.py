@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "base",
     "bootstrap5",
-    "cursos"
+    "cursos",
 ]
 
 MIDDLEWARE = [
@@ -83,7 +83,14 @@ DATABASES = {
     }
 }
 
-
+# # Redis
+# # https://docs.djangoproject.com/en/5.0/topics/cache/
+# CACHES = {
+#     "default": {
+#         "BACKEND": "django.core.cache.backends.redis.RedisCache",
+#         "LOCATION": "redis://127.0.0.1:6379",
+#     }
+# }
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
 

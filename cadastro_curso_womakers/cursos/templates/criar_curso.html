@@ -16,5 +16,12 @@
 
   </form>
 
+  <hr>
+  <br>
+  <h1> Cursos cadastrados </h1> <br>
+  {% for curso in cursos %}
+    <p> {{curso.titulo}}
+  {% endfor %}
+  
   {% endif %}
 {% endblock %}

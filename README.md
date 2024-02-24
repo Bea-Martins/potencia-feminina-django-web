@@ -125,3 +125,12 @@ Explorando o admin:
 
 **Aula 3: Validação de Dados** 📕✏️<br>
 - dentro de forms implementar um def para validação.
+
+**Aula 4: Utilizando Cache na aplicação** 📕✏️<br>
+
+O cache é uma técnica para melhorar o desempenho e a eficiência de aplicações e sistemas. 
+Vantagens: velocidade de acesso, redução do consumo de recursos, diminuição da latência, alívio da rede e melhoria na experiência do usuário.
+
+🔗 [Django Documentation](https://docs.djangoproject.com/en/5.0/)
+
+O que iremos utilizar o Redis: é uma ferramenta _key-value_ frequentemente integrada em projetos Django para otimizar desempenho e eficiência. Ele é utilizado como cache para armazenar dados frequentemente acessados, como resultados de consultas ao banco de dados, reduzindo latência e melhorando tempo de resposta. Além disso, o Redis é empregado para armazenar sessões de usuários, permitindo a manutenção do estado entre solicitações HTTP, e também na gestão de filas e tarefas em segundo plano, como envio de e-mails, garantindo eficiência e escalabilidade. Em recursos em tempo real, como o Django Channels, o Redis atua como uma camada de armazenamento para nomes de canais e grupos, viabilizando a comunicação entre diferentes instâncias de consumidores de forma instantânea.
