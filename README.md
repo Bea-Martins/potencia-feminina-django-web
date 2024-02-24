@@ -156,5 +156,12 @@ O Django REST framework é uma ferramenta para construir APIs web em Python/Djan
 - registrar no settings o novo app
 
 **Aula 2: HTTP e REST** 📕✏️<br>
+
 - implementar a api get e post dentro da view em rest_api
 - criar um arquivo urls.py na aplicação rest_api
+
+**Aula 3: Serializers** 📕✏️<br>
+Serializers no Django REST framework convertem dados complexos em formatos nativos do Python, como dicionários, permitindo renderização em JSON, XML, etc. Além disso, facilitam a desserialização e validação de dados de entrada, sendo essenciais para comunicação eficiente entre aplicativos e clientes por meio de APIs RESTful em projetos Django.
+
+- criar um arquivo serializers.py na rest_api
+- atualizar a view
