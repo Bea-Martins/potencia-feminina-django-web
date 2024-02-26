@@ -165,3 +165,47 @@ Serializers no Django REST framework convertem dados complexos em formatos nativ
 
 - criar um arquivo serializers.py na rest_api
 - atualizar a view
+
+## SEMANA 9: Testes com unittest e pytest
+
+**Aula 2: Tipos de testes** 📕✏️<br>
+Testes de software são essenciais para criar aplicativos confiáveis e de alta qualidade. Seus benefícios são: Garantia de Qualidade, Identificação de Erros, Redução de Riscos, Economia de Custos, Conformidade Legal e Boas Práticas.
+
+Existem 2 tipos principais de testes: funcional e unitário.
+
+_Teste Unitário:_
+
+- Testa unidades individuais (como funções ou métodos) do código.
+- Verifica se cada parte pequena do software funciona corretamente.
+- Ajuda a encontrar bugs e garante a qualidade do código.
+- Exemplo: Testar uma função que soma dois números.
+
+_Teste Funcional:_
+
+- Testa o software como um todo, focando na funcionalidade.
+- Verifica se o software atende aos requisitos esperados.
+- Não se preocupa com detalhes internos, apenas com os resultados.
+- Exemplo: Testar se o login de um aplicativo funciona corretamente.
+
+_Integração:_
+
+- Verifica se o software atende aos requisitos funcionais (funcionalidades esperadas).
+- Foca no comportamento do sistema como um todo.
+- Exemplo: Testar se o login funciona corretamente.
+
+_Teste Não Funcional:_
+
+- Avalia aspectos não relacionados à funcionalidade, como desempenho, segurança e usabilidade.
+- Exemplo: Testar a velocidade de carregamento de uma página.
+
+*Teste de Usabilidade:*
+
+- Avalia a experiência do usuário ao interagir com o software.
+- Verifica se a interface é intuitiva, fácil de usar e atende às necessidades dos usuários.
+- Exemplo: Testar se um site permite que os usuários encontrem informações rapidamente.
+
+*Teste de Desempenho:*
+
+- Avalia o desempenho do software em termos de velocidade, escalabilidade e eficiência.
+- Verifica se o sistema responde rapidamente e suporta carga de usuários.
+- Exemplo: Testar o tempo de carregamento de uma página da web.
