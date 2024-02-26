@@ -169,9 +169,8 @@ Serializers no Django REST framework convertem dados complexos em formatos nativ
 ## SEMANA 9: Testes com unittest e pytest
 
 **Aula 2: Tipos de testes** 📕✏️<br>
-Testes de software são essenciais para criar aplicativos confiáveis e de alta qualidade. Seus benefícios são: Garantia de Qualidade, Identificação de Erros, Redução de Riscos, Economia de Custos, Conformidade Legal e Boas Práticas.
-
-Existem 2 tipos principais de testes: funcional e unitário.
+Testes de software são essenciais para criar aplicativos confiáveis e de alta qualidade. Seus benefícios são: Garantia de Qualidade, Identificação de Erros, Redução de Riscos, Economia de Custos, Conformidade Legal e Boas Práticas.<br>
+Existem vários tipos de testes, entre eles: 
 
 _Teste Unitário:_
 
