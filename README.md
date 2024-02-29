@@ -170,7 +170,7 @@ Serializers no Django REST framework convertem dados complexos em formatos nativ
 
 **Aula 2: Tipos de testes** 📕✏️<br>
 Testes de software são essenciais para criar aplicativos confiáveis e de alta qualidade. Seus benefícios são: Garantia de Qualidade, Identificação de Erros, Redução de Riscos, Economia de Custos, Conformidade Legal e Boas Práticas.<br>
-Existem vários tipos de testes, entre eles: 
+Existem vários tipos de testes, entre eles:
 
 _Teste Unitário:_
 
@@ -197,14 +197,24 @@ _Teste Não Funcional:_
 - Avalia aspectos não relacionados à funcionalidade, como desempenho, segurança e usabilidade.
 - Exemplo: Testar a velocidade de carregamento de uma página.
 
-*Teste de Usabilidade:*
+_Teste de Usabilidade:_
 
 - Avalia a experiência do usuário ao interagir com o software.
 - Verifica se a interface é intuitiva, fácil de usar e atende às necessidades dos usuários.
 - Exemplo: Testar se um site permite que os usuários encontrem informações rapidamente.
 
-*Teste de Desempenho:*
+_Teste de Desempenho:_
 
 - Avalia o desempenho do software em termos de velocidade, escalabilidade e eficiência.
 - Verifica se o sistema responde rapidamente e suporta carga de usuários.
 - Exemplo: Testar o tempo de carregamento de uma página da web.
+
+**Aula 3: Testes com pytest parte 1** 📕✏️<br>
+
+- Instalar o pacote de testes (pip install pytest-django)
+- Instalar outro pacote (pip install pytest)
+- Configurações dos arquivos, criar novo arquivo pytest.ini naraiz do projeto
+- Rodar os testes: pytest
+- Apagar o arquivo tests da pasta cursos e criar uma pasta com nome tests
+- dentro da pasta criar um arquivo de inicialização dos teste __init__.py
+- Intalar o pacote model_bakery (pip install model_bakery )
